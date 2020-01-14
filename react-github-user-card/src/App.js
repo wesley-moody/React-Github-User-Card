@@ -47,7 +47,7 @@ class App extends Component {
               <div className='followersinfo'>
                 <p>{followme.name}</p>
                 <p>USERNAME: {followme.login}</p>
-                <p> Click below to see my work on github! </p>
+                <p> Follow the link below to see my work on github! </p>
                 <button>{followme.html_url}</button>
               </div>
             </div>

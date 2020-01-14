@@ -1,3 +1,7 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1543768235-10b28a8c36fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+}
+
 .App {
   text-align: center;
 }
@@ -39,23 +43,22 @@
 
 button {
   height: 3rem;
-  background-color: black;
-  color: #fff;
+  background-color: purple;
+  color: hotpink;
   font-size: 1.8rem;
+  border: double;
 }
 
 img {
   border-radius: 18%;
-  height: 12rem;  
+  height: 12rem;
 }
 
 p {
-  color: plum;
+  color: hotpink;
   background-color: purple;
-  width: 40%;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   align-content: center;
-  
 }
